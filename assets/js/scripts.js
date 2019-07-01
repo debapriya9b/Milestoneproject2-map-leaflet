@@ -8,6 +8,14 @@ $(document).ready(function() {
     $("#myModal").modal('show');
 });
 
+//---------For connecting Info button with modal
+
+$("#myModal").on("click",function(e){
+    e.preventDefault();
+    $('#basicModal').modal('show');
+})
+
+
 //------------------------------------------------Creating map/Tile Layer/Popup
 
 
