@@ -52,3 +52,12 @@ body {
 .modal-body-details {
   font-size: 25px;
 }
+
+/*Interactive buttons for map*/
+
+.show-hide-button {
+  margin: 5px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: medium;
+}
