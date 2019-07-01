@@ -88,3 +88,11 @@ body {
   float: right;
   color: #ffffff;
 }
+
+/*Media query for small screen*/
+
+@media only screen and (max-width: 767px) {
+  .modal-body-details {
+    font-size: 15px;
+  }
+}
