@@ -54,6 +54,26 @@ var geojsonMarkerOptionsActive = {
     fillOpacity: 0.5
 };
 
+var geojsonMarkerOptionsDormant = {
+    radius: 4,
+    fillColor: "#00CC00",
+    color: "#000",
+    weight: 1,
+    opacity: 0.5,
+    fillOpacity: 0.5
+};
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
