@@ -33,7 +33,15 @@ I wanted to make this project open-source and fully interactive, so I have decid
 - Used Bootstrap 4 : To make the site responsive
 - Used Bootswatch template (https://bootswatch.com/sketchy/) : To make the site visually attractive specially for young explorers
 
+#### WIREFRAMES
 
+
+## FEATURES
+
+#### EXISTING FEATURES
+
+
+#### FEATURES TO BE IMPLEMENTED
 
 
 
