@@ -48,3 +48,7 @@ body {
 .paragraph {
   margin-bottom: 0;
 }
+
+.modal-body-details {
+  font-size: 25px;
+}
