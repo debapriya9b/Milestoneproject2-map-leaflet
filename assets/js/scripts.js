@@ -189,6 +189,29 @@ function filterExtinctVol() {
     }).addTo(map);
 }
 
+//----------------------------------------------------------------Map search
+
+// flyTo the latitude/longitude + zoom level based on the user selection
+$("#countries").on("change", function() {
+    var countryData = $(this).val().split(","),
+        MapLat = countryData[0],
+        MapLng = countryData[1],
+        MapZoom = parseInt(countryData[2]);
+    map.flyTo([MapLat, MapLng], MapZoom);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
