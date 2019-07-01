@@ -33,3 +33,27 @@ L.control.navbar().addTo(map);
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'
 }).addTo(map);
+
+//Adding geoJson data and adding the marker and popup
+
+var geojsonMarkerOptions = {
+    radius: 3,
+    fillColor: "#FF0000",
+    color: "#000",
+    weight: 1,
+    opacity: 0.2,
+    fillOpacity: 0.5
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
