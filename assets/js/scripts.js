@@ -102,6 +102,33 @@ function addVolcanoWorldwide() {
     }).addTo(map);
 };
 
+// Create event listener for the remove Volcanoes Worldwide Button
+document.getElementById("removeButton").addEventListener("click", removeVolcanoWorldwide);
+
+// Remove volcano worldwide function
+function removeVolcanoWorldwide() {
+    volcanoPoints.remove(map);
+};
+
+document.getElementById("toggleButton").addEventListener("click", toggleVolcanoes);
+
+// Toggle Volcanoes
+function toggleVolcanoes() {
+    if (map.hasLayer(volcanoPoints)) {
+        removeVolcanoWorldwide();
+    }
+    else {
+        addVolcanoWorldwide();
+    }
+};
+
+
+
+
+
+
+
+
 
 
 
