@@ -122,6 +122,35 @@ function toggleVolcanoes() {
     }
 };
 
+//----------------------------------------------------------Filtering to show Active Volcanoes
+
+// Event Listener for a click on the Active button
+document.getElementById("filterActiveVol").addEventListener("click", filterActiveVol);
+
+
+// Function to update volcanoPoints to filtered subset of data showing Active volcanoes
+function filterActiveVol() {
+    if (map.hasLayer(volcanoPoints)) {
+        removeVolcanoWorldwide();
+    };
+    volcanoPoints = L.geoJson(volcano, {
+        pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, geojsonMarkerOptionsActive);
+        },
+        onEachFeature: volcanoSearch,
+        filter: function(feature, layer) {
+            return feature.properties.STATUS == "Active";
+        }
+    }).addTo(map);
+}
+
+
+
+
+
+
+
+
 
 
 
