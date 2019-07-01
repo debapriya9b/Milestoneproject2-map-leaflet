@@ -13,3 +13,18 @@ body {
 .page-header {
   color: #ffffff;
 }
+
+/*Navbar country search*/
+
+#countries {
+  grid-area: countries;
+  font-size: 1.5vmax;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #17a2b8;
+  outline: none;
+  text-align: right;
+  border-radius: 12px;
+}
