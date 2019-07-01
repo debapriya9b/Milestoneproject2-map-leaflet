@@ -28,3 +28,8 @@ var mapOptions = {
 var map = new L.map('map', mapOptions);
 
 L.control.navbar().addTo(map);
+
+// Add Tile Layer and add to map
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'
+}).addTo(map);
