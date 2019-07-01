@@ -23,3 +23,8 @@ var mapOptions = {
     ],
     maxBoundsViscosity: 0.5,
 }
+
+// Creating a map object
+var map = new L.map('map', mapOptions);
+
+L.control.navbar().addTo(map);
