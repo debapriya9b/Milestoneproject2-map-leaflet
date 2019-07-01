@@ -77,6 +77,34 @@ function volcanoSearch(feature, layer) {
 
 };
 
+//-------------------------------------------Creating interactive buttons:Toggler button to show on/off worldwide volcanoes
+
+var volcanoPoints = null;
+
+
+// Create event listener for the add Volcanoes Worldwide Button
+document.getElementById("addButton").addEventListener("click", addVolcanoWorldwide);
+
+// Add volcano worldwide function
+function addVolcanoWorldwide() {
+    volcanoPoints.addTo(map);
+};
+
+function addVolcanoWorldwide() {
+    if (map.hasLayer(volcanoPoints)) {
+        removeVolcanoWorldwide();
+    };
+    volcanoPoints = L.geoJson(volcano, {
+        pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, geojsonMarkerOptions);
+        },
+        onEachFeature: volcanoSearch
+    }).addTo(map);
+};
+
+
+
+
 
 
 
