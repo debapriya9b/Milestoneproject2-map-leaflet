@@ -20,4 +20,10 @@ Currently the data from [Global GIS:volcanoes of the world;volcano basic data](h
 
 I wanted to make this project open-source and fully interactive, so I have decided to use [Leaflet](https://leafletjs.com/) instead of Google Maps due to the Google pricing implementation as of 16 July 2018. The majority of the Volcano data is taken from [Global GIS], but for the current status of the listed Volcanoes [ Wikipedia ] (https://en.wikipedia.org/wiki/Lists_of_volcanoes) has been referred.
 
+## UX
 
+#### USER STORIES
+
+- Advik,7 years old: "I love volcanoes!I want to become a volcano explorer.Do you know which volcanoes are active in the world?"
+- Kiara,6 years old: "I want to see all the volcanoes in the world"
+- Vanitia,10 years old: "I am doing one school project on Facts on Natural disaster.It will be easy if I can get all basic informations in one site"
