@@ -61,3 +61,8 @@ body {
   font-weight: normal;
   font-size: medium;
 }
+
+/*End modal activate pointer*/
+.pointer {
+  cursor: pointer;
+}
