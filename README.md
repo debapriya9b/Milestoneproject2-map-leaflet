@@ -58,7 +58,31 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 - [ConvertCSV.com](http://www.convertcsv.com/csv-to-geojson.htm): Used to convert data from GeoJSON to CSV and vice versa to modify data taken from Wikipedia.
 
 
+## TESTING
 
+#### TEST MATRIX
+
+I created a Excel sheet which outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended. Jasmine testing was not essential for this particular project.
+
+
+
+## DEPLOYMENT
+
+This particular project does not require any local deployment.
+
+Deployment and source control was entirely done via GitHub. My repository can be found here:
+
+- **Repo: [https://github.com/debapriya9b/MilestoneProject2-Map](https://github.com/debapriya9b/MilestoneProject2-Map)**
+
+I've published the source code built from the *master branch* using **GitHub Pages**.
+
+The live site can be found here:
+
+- **GH Pages: [https://debapriya9b.github.io/MilestoneProject2-Map/](https://debapriya9b.github.io/MilestoneProject2-Map/)**
+
+There are no difference between the deployed version and the development version.
+
+## CREDITS
 
 
 
