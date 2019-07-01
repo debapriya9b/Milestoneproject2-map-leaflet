@@ -37,3 +37,14 @@ body {
     border-style: solid;
     border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
 }
+.content{
+  margin-top: 90px;
+}
+
+.paragraph-heading{
+  margin-top: 10px;
+}
+
+.paragraph {
+  margin-bottom: 0;
+}
