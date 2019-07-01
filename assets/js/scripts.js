@@ -63,7 +63,14 @@ var geojsonMarkerOptionsDormant = {
     fillOpacity: 0.5
 };
 
-
+var geojsonMarkerOptionsExtinct = {
+    radius: 4,
+    fillColor: "#3C0033",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
 
 
 
