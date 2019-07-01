@@ -27,3 +27,19 @@ I wanted to make this project open-source and fully interactive, so I have decid
 - Advik,7 years old: "I love volcanoes!I want to become a volcano explorer.Do you know which volcanoes are active in the world?"
 - Kiara,6 years old: "I want to see all the volcanoes in the world"
 - Vanitia,10 years old: "I am doing one school project on Facts on Natural disaster.It will be easy if I can get all basic informations in one site"
+
+#### FRAMEWORK & COLOR SCHEME
+
+- Used Bootstrap 4 : To make the site responsive
+- Used Bootswatch template (https://bootswatch.com/sketchy/) : To make the site visually attractive specially for young explorers
+
+
+
+
+
+
+
+
+
+
+
