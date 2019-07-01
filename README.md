@@ -72,7 +72,7 @@ This particular project does not require any local deployment.
 
 Deployment and source control was entirely done via GitHub. My repository can be found here:
 
-- **Repo: [https://github.com/debapriya9b/MilestoneProject2-Map](https://github.com/debapriya9b/MilestoneProject2-Map)**
+- **Repo: [https://github.com/debapriya9b/Milestoneproject2-map-leaflet](https://github.com/debapriya9b/Milestoneproject2-map-leaflet)**
 
 I've published the source code built from the *master branch* using **GitHub Pages**.
 
