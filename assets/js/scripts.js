@@ -144,7 +144,27 @@ function filterActiveVol() {
     }).addTo(map);
 }
 
+//----------------------------------------------------------Filtering to show Dormant Volcanoes
 
+// Event Listener for a click on the Dormant button
+document.getElementById("filterDormantVol").addEventListener("click", filterDormantVol);
+
+
+// Function to update volcanoPoints to filtered subset of data showing Dormant volcanoes
+function filterDormantVol() {
+    if (map.hasLayer(volcanoPoints)) {
+        removeVolcanoWorldwide();
+    };
+    volcanoPoints = L.geoJson(volcano, {
+        pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, geojsonMarkerOptionsDormant);
+        },
+        onEachFeature: volcanoSearch,
+        filter: function(feature, layer) {
+            return feature.properties.STATUS == "Dormant";
+        }
+    }).addTo(map);
+}
 
 
 
