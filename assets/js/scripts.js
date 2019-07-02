@@ -80,9 +80,17 @@ var geojsonMarkerOptionsExtinct = {
     fillOpacity: 0.5
 };
 
+//----Popup showing Volcano details on mouseover
+
 function volcanoSearch(feature, layer) {
     layer.bindPopup("<p>Name: " + feature.properties.NAME_ + "</p><p>Type: " + feature.properties.TYPE_ + "</p><p>Location: " + feature.properties.LOCATION + "</p>"); //LOCATION.layer = layer;
-
+    layer.on('mouseover', function (e) {
+            this.openPopup();
+        });
+        layer.on('mouseout', function (e) {
+            this.closePopup();
+    
+});
 };
 
 //-------------------------------------------Creating interactive buttons:Toggler button to show on/off worldwide volcanoes
@@ -207,53 +215,3 @@ $("#countries").on("change", function() {
         MapZoom = parseInt(countryData[2]);
     map.flyTo([MapLat, MapLng], MapZoom);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
