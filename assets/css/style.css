@@ -10,6 +10,7 @@ body {
 }
 
 /*header*/
+
 .page-header {
   color: #ffffff;
 }
@@ -31,27 +32,27 @@ body {
 
 /*section*/
 
-#myNav{
-    width: 97%;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+#myNav {
+  width: 97%;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
 }
 
 .navbar-header .fas {
-    color: white;
-    margin: 5px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-top: 15px;
-  }
+  color: white;
+  margin: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
 
-.content{
+.content {
   margin-top: 90px;
   margin-bottom: 3em;
 }
 
-.paragraph-heading{
+.paragraph-heading {
   margin-top: 10px;
 }
 
@@ -73,11 +74,13 @@ body {
 }
 
 /*End modal activate pointer*/
+
 .pointer {
   cursor: pointer;
 }
 
 /*End modal details*/
+
 .end-modal-details {
   padding: 25px;
 }
@@ -96,6 +99,7 @@ body {
   bottom: 0px;
   z-index: 10000;
 }
+
 .footer-details i {
   font-size: 20px;
   float: right;
@@ -124,16 +128,8 @@ body {
 
 /*Media query for iPad Pro*/
 
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    
-    
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  
+
+  
 }
-
-
-
-
-
-
