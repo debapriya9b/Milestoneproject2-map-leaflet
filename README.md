@@ -35,6 +35,8 @@ I wanted to make this project open-source and fully interactive, so I have decid
 
 #### WIREFRAMES
 
+I've used Microsoft Word to create my wireframe / mock-up.
+
 * [Wireframe-small_screen](Wireframes/wireframe-mobile.JPG)
 * [Wireframe-large_screen_1](Wireframes/wireframe1.JPG)
 * [Wireframe-large_screen_2](Wireframes/wireframe2.JPG)
