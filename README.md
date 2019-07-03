@@ -62,7 +62,7 @@ I've used Microsoft Word to create my wireframe / mock-up.
 #### FEATURES TO BE 
 
 - I would like to use more efficient and faster API to improve my user experience.
-- Need to work on markers,specially while zooming in,markers should be more promitant.Use of Leaflet Plugins,animations can enhance the user experience.
+- Need to work on markers,specially while zooming in,markers should be more prominant.Use of Leaflet Plugins,animations can enhance the user experience.
 - Add more API data to make this site more informative.
 
 ## TECHNOLOGIES USED
@@ -85,8 +85,9 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 #### TEST MATRIX
 
 I created a Excel sheet which outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended. Jasmine testing was not essential for this particular project.
-[testing matrix](https://github.com/debapriya9b/Milestoneproject2-map-leaflet/blob/master/Testing/testingfile.xlsx)
+[Testing matrix](https://github.com/debapriya9b/Milestoneproject2-map-leaflet/blob/master/Testing/testingfile.xlsx)
 
+![Testing Matrix]()
 
 ## DEPLOYMENT
 
