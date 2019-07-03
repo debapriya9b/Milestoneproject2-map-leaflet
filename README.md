@@ -78,7 +78,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 - [Leaflet](https://leafletjs.com/): An open-source JavaScript library for interactive maps.
 - [Leaflet Plugins](https://leafletjs.com/plugins.html): Plugins to allow better functionality of Leaflet.
 - [ConvertCSV.com](http://www.convertcsv.com/csv-to-geojson.htm): Used to convert data from GeoJSON to CSV and vice versa to modify data taken from Wikipedia.
-
+- [Favicon](https://www.favicon-generator.org/): Used for the image.
 
 ## TESTING
 
