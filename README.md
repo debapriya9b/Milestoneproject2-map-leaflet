@@ -50,7 +50,7 @@ I've used Microsoft Word to create my wireframe / mock-up.
 - **World Map**: Leaflet map has been used with map-tile layer
 - **Data**: GeoJSON data has been used to show more than 1,510 volcanoes that have erupted in the last 10,000 years.
 - **Country Search**: (in Navbar)Used Leaflet Method flyTo which sets the view of the map (geographical center and zoom) performing a smooth pan-zoom animation to search volcanoes for a specific country.
-- **UI Layers: Marker**: Used to display clickable icons on the map to worldwide volcanoes.
+- **UI Layers: Marker**: Used to display clickable icons on the map to show worldwide volcanoes.
 - **Vector Layers**: Since there were more than 1,510 datapoints to show on the map,used CircleMarker to make the site visually appealing.
 - **LayerGroup**: Used bindPopup binds a popup to all of the layers at once.
 - **Interactive Layer**: Events like "mouseover","mouseout" added to make the map interactive.
