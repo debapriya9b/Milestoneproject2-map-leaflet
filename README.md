@@ -128,6 +128,8 @@ There are no difference between the deployed version and the development version
 
 The content of this Website is for educational purposes only.
 
+Note: I have started my project in Cloud9 but in between I had to transfer my workspace to AWS Cloud9 environment.Unfortunately the transfer didn't went correctly and later I was unable to connect my github with new environment for further changes in my project.So I had to redo all from scratch and lost earlier commits.So all the commits showing in this project are between July1'2019-July3'2019.
+
 
 
 
