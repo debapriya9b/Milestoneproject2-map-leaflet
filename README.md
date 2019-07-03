@@ -57,9 +57,11 @@ I've used Microsoft Word to create my wireframe / mock-up.
 - **Interactive Toggler button**: Button to show/hide volcano points all over the world to make the map more interactive. Other interactive buttons to show filtered data
 - **GeoJSON Options**: Used "onEachFeature", "filter" options which allow you to parse GeoJSON data and display it on the map acctording to your requirement/preferences.
 - **Controls:Zoom**: A basic zoom control with two buttons (zoom in and zoom out) for the map.
-- **Controls:Home,Next,Previous Button**: "Home" button :Go to home map view,"Right Arrow" : Go forward in map view history,"Left Arrow" : Go back to the map view history
+- **Controls:Home,Next,Previous Button**: "Home" button :Go to home map view,"Right Arrow" : Go forward in map view history,"Left Arrow" : Go back to the map view history (Ref:https://github.com/davidchouse/Leaflet.NavBar )
 
 #### FEATURES TO BE 
+
+- 
 
 ## TECHNOLOGIES USED
 
@@ -102,7 +104,26 @@ There are no difference between the deployed version and the development version
 
 ## CREDITS
 
+#### CONTENT
 
+- Global GIS : volcanoes of the world ; volcano basic data (https://earthworks.stanford.edu/catalog/harvard-glb-volc)
+- National Geographic Kids (https://www.natgeokids.com/uk/discover/geography/physical-geography/volcano-facts)
+- Volcano Discovery (https://www.volcanodiscovery.com/)
+- Wikipedia (https://en.wikipedia.org/wiki/Volcano)
+
+#### CODE REFERENCE
+
+- https://leafletjs.com/
+- https://www.tutorialspoint.com/leafletjs/leafletjs_getting_started.htm
+- https://www.w3schools.com/
+- https://stackoverflow.com/
+- https://codepen.io/
+- https://github.com/davidchouse/Leaflet.NavBar
+
+
+#### Disclaimer
+
+The content of this Website is for educational purposes only.
 
 
 
