@@ -87,7 +87,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 I created a Excel sheet which outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended. Jasmine testing was not essential for this particular project.
 [Testing matrix](https://github.com/debapriya9b/Milestoneproject2-map-leaflet/blob/master/Testing/testingfile.xlsx)
 
-![Testing Matrix]()
+![Testing Matrix](https://github.com/debapriya9b/Milestoneproject2-map-leaflet/blob/master/Testing/TestFile.JPG)
 
 ## DEPLOYMENT
 
