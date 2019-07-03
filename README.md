@@ -61,7 +61,9 @@ I've used Microsoft Word to create my wireframe / mock-up.
 
 #### FEATURES TO BE 
 
-- 
+- I would like to use more efficient and faster API to improve my user experience.
+- Need to work on markers,specially while zooming in,markers should be more promitant.Use of Leaflet Plugins,animations can enhance the user experience.
+- Add more API data to make this site more informative.
 
 ## TECHNOLOGIES USED
 
