@@ -1,6 +1,6 @@
 /* global L */
 
-//-------------------------------------------------Modal
+//Modal
 
 //Modal will open with page load
 
@@ -8,16 +8,14 @@ $(document).ready(function() {
     $("#myModal").modal('show');
 });
 
-//---------For connecting Info button with modal
+//For connecting Info button with modal
 
 $("#myModal").on("click",function(e){
     e.preventDefault();
     $('#basicModal').modal('show');
 })
 
-
-//------------------------------------------------Creating map/Tile Layer/Popup
-
+//Creating map/Tile Layer/Popup
 
 //Creating map options
 var mapOptions = {
@@ -80,7 +78,7 @@ var geojsonMarkerOptionsExtinct = {
     fillOpacity: 0.5
 };
 
-//----Popup showing Volcano details on mouseover
+//Popup showing Volcano details on mouseover
 
 function volcanoSearch(feature, layer) {
     layer.bindPopup("<p>Name: " + feature.properties.NAME_ + "</p><p>Type: " + feature.properties.TYPE_ + "</p><p>Location: " + feature.properties.LOCATION + "</p>"); //LOCATION.layer = layer;
@@ -89,14 +87,12 @@ function volcanoSearch(feature, layer) {
         });
         layer.on('mouseout', function (e) {
             this.closePopup();
-    
-});
+    });
 };
 
-//-------------------------------------------Creating interactive buttons:Toggler button to show on/off worldwide volcanoes
+//Creating interactive buttons:Toggler button to show on/off worldwide volcanoes
 
-var volcanoPoints = null;
-
+var volcanoPoints = null; //Initially volcano points will not show
 
 // Create event listener for the add Volcanoes Worldwide Button
 document.getElementById("addButton").addEventListener("click", addVolcanoWorldwide);
@@ -138,7 +134,7 @@ function toggleVolcanoes() {
     }
 };
 
-//----------------------------------------------------------Filtering to show Active Volcanoes
+//Filtering to show Active Volcanoes
 
 // Event Listener for a click on the Active button
 document.getElementById("filterActiveVol").addEventListener("click", filterActiveVol);
@@ -160,7 +156,7 @@ function filterActiveVol() {
     }).addTo(map);
 }
 
-//----------------------------------------------------------Filtering to show Dormant Volcanoes
+//Filtering to show Dormant Volcanoes
 
 // Event Listener for a click on the Dormant button
 document.getElementById("filterDormantVol").addEventListener("click", filterDormantVol);
@@ -182,7 +178,7 @@ function filterDormantVol() {
     }).addTo(map);
 }
 
-//----------------------------------------------------------Filtering to show Extinct Volcanoes
+//Filtering to show Extinct Volcanoes
 
 // Event Listener for a click on the Extinct button
 document.getElementById("filterExtinctVol").addEventListener("click", filterExtinctVol);
@@ -205,7 +201,7 @@ function filterExtinctVol() {
     }).addTo(map);
 }
 
-//----------------------------------------------------------------Map search
+//Map search-for countries
 
 // flyTo the latitude/longitude + zoom level based on the user selection
 $("#countries").on("change", function() {
