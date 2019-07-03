@@ -52,7 +52,7 @@ I've used Microsoft Word to create my wireframe / mock-up.
 - **Country Search**: (in Navbar)Used Leaflet Method flyTo which sets the view of the map (geographical center and zoom) performing a smooth pan-zoom animation to search volcanoes for a specific country.
 - **UI Layers: Marker**: Used to display clickable icons on the map to show worldwide volcanoes.
 - **Vector Layers**: Since there were more than 1,510 datapoints to show on the map,used CircleMarker to make the site visually appealing.
-- **LayerGroup**: Used bindPopup binds a popup to all of the layers at once.
+- **LayerGroup**: Used bindPopup to bind a popup to all of the layers at once.
 - **Interactive Layer**: Events like "mouseover","mouseout" added to make the map interactive.
 - **Interactive Toggler button**: Button to show/hide volcano points all over the world to make the map more interactive. Other interactive buttons to show filtered data
 - **GeoJSON Options**: Used "onEachFeature", "filter" options which allow you to parse GeoJSON data and display it on the map acctording to your requirement/preferences.
@@ -128,7 +128,7 @@ There are no difference between the deployed version and the development version
 
 The content of this Website is for educational purposes only.
 
-Note: I have started my project in Cloud9 but in between I had to transfer my workspace to AWS Cloud9 environment.Unfortunately the transfer didn't went correctly and later I was unable to connect my github with new environment for further changes in my project.So I had to redo all from scratch and lost earlier commits.So all the commits showing in this project are between July1'2019-July3'2019.
+**Note:** I have started my project in Cloud9 but in between I had to transfer my workspace to AWS Cloud9 environment.Unfortunately the transfer didn't went correctly and later I was unable to connect to my github with new environment for further changes in my project.So I had to redo all from scratch and lost earlier commits.So all the commits showing in this project are between July1'2019-July3'2019.
 
 Below,mentioned the previous(unfinished) project repository link for your reference.
 (https://github.com/debapriya9b/MilestoneProject2-Map)
