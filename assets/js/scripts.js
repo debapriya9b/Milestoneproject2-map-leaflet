@@ -13,7 +13,7 @@ $(document).ready(function() {
 $("#myModal").on("click",function(e){
     e.preventDefault();
     $('#basicModal').modal('show');
-})
+});
 
 //Creating map/Tile Layer/Popup
 
@@ -28,7 +28,7 @@ var mapOptions = {
         [90, 190]
     ],
     maxBoundsViscosity: 0.5,
-}
+};
 
 // Creating a map object
 var map = new L.map('map', mapOptions);
@@ -88,7 +88,7 @@ function volcanoSearch(feature, layer) {
         layer.on('mouseout', function (e) {
             this.closePopup();
     });
-};
+}
 
 //Creating interactive buttons:Toggler button to show on/off worldwide volcanoes
 
@@ -100,19 +100,19 @@ document.getElementById("addButton").addEventListener("click", addVolcanoWorldwi
 // Add volcano worldwide function
 function addVolcanoWorldwide() {
     volcanoPoints.addTo(map);
-};
+}
 
 function addVolcanoWorldwide() {
     if (map.hasLayer(volcanoPoints)) {
         removeVolcanoWorldwide();
-    };
+    }
     volcanoPoints = L.geoJson(volcano, {
         pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptions);
         },
         onEachFeature: volcanoSearch
     }).addTo(map);
-};
+}
 
 // Create event listener for the remove Volcanoes Worldwide Button
 document.getElementById("removeButton").addEventListener("click", removeVolcanoWorldwide);
@@ -120,7 +120,7 @@ document.getElementById("removeButton").addEventListener("click", removeVolcanoW
 // Remove volcano worldwide function
 function removeVolcanoWorldwide() {
     volcanoPoints.remove(map);
-};
+}
 
 document.getElementById("toggleButton").addEventListener("click", toggleVolcanoes);
 
@@ -132,7 +132,7 @@ function toggleVolcanoes() {
     else {
         addVolcanoWorldwide();
     }
-};
+}
 
 //Filtering to show Active Volcanoes
 
@@ -144,7 +144,7 @@ document.getElementById("filterActiveVol").addEventListener("click", filterActiv
 function filterActiveVol() {
     if (map.hasLayer(volcanoPoints)) {
         removeVolcanoWorldwide();
-    };
+    }
     volcanoPoints = L.geoJson(volcano, {
         pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptionsActive);
@@ -166,7 +166,7 @@ document.getElementById("filterDormantVol").addEventListener("click", filterDorm
 function filterDormantVol() {
     if (map.hasLayer(volcanoPoints)) {
         removeVolcanoWorldwide();
-    };
+    }
     volcanoPoints = L.geoJson(volcano, {
         pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptionsDormant);
@@ -188,7 +188,7 @@ document.getElementById("filterExtinctVol").addEventListener("click", filterExti
 function filterExtinctVol() {
     if (map.hasLayer(volcanoPoints)) {
         removeVolcanoWorldwide();
-    };
+    }
     volcanoPoints = L.geoJson(volcano, {
         pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptionsExtinct);
