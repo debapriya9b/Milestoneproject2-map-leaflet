@@ -104,6 +104,8 @@ I created a Excel sheet which outlines the various tests I made to ensure the si
     - *Mixed Content:* The page at 'https://debapriya9b.github.io/Milestoneproject2-map-leaflet/' was loaded over HTTPS, but requested an insecure script 'http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'. This request has been blocked; the content must be served over HTTPS.
     - *Mixed Content:* The page at 'https://debapriya9b.github.io/Milestoneproject2-map-leaflet/' was loaded over HTTPS, but requested an insecure script 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'. This request has been blocked; the content must be served over HTTPS.
 
+#### TESTED BY USERS
+- Advik,7 years old: Advik tested all the buttons,volcano points,went to individual countries from search button,to check whether any volcano exists in that particular country.And if yes,what type of volcano,Active or Dormant etc.He gave a very positive feedback for the site.Easy to use too.
 
 ## DEPLOYMENT
 
