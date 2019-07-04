@@ -89,6 +89,22 @@ I created a Excel sheet which outlines the various tests I made to ensure the si
 
 ![Testing Matrix](https://github.com/debapriya9b/Milestoneproject2-map-leaflet/blob/master/Testing/TestFile.JPG)
 
+- [HTML Validation](https://validator.w3.org/): The aria-labelledby attribute must point to an element in the same document
+- [CSS Validation](https://jigsaw.w3.org/css-validator/): No errors or warnings found.
+- [JavaScript Validation](http://beautifytools.com/javascript-validator.php): 'e' is defined but never used,'layer' is defined but never used
+- [JSHint (v2.9.6)](https://jshint.com/) Metrics from my `script.js` file:
+    - There are **20** functions in this file..
+    - Function with the largest signature take **2** arguments, while the median is **1**.
+    - Largest function has **3** statements in it, while the median is **1**.
+    - The most complex function has a cyclomatic complexity value of **2** while the median is **1**.
+    - Three undefined variables:
+        - `$` - used for **jQuery**
+        - `	volcano` - external variable from Data
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/):
+    - *Mixed Content:* The page at 'https://debapriya9b.github.io/Milestoneproject2-map-leaflet/' was loaded over HTTPS, but requested an insecure script 'http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'. This request has been blocked; the content must be served over HTTPS.
+    - *Mixed Content:* The page at 'https://debapriya9b.github.io/Milestoneproject2-map-leaflet/' was loaded over HTTPS, but requested an insecure script 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'. This request has been blocked; the content must be served over HTTPS.
+
+
 ## DEPLOYMENT
 
 This particular project does not require any local deployment.
