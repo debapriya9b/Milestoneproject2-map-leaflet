@@ -6,8 +6,6 @@
   L.Control.NavBar = L.Control.extend({
     options: {
       position: 'topleft',
-      //center:,
-      //zoom :,
       forwardTitle: 'Go forward in map view history',
       backTitle: 'Go back in map view history',
       homeTitle: 'Go to home map view'
@@ -75,7 +73,7 @@
     },
 
     _createButton: function(title, className, container, fn) {
-      // Modified from Leaflet zoom control
+      
 
       var link = L.DomUtil.create('a', className, container);
       link.href = '#';
